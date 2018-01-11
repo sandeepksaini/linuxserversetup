@@ -42,4 +42,6 @@ alias dcins='docker container inspect';
 alias di='docker image';
 alias dip='docker image push';
 alias dils='docker image ls';
+#Docker netwrok specific command
+alias dn='docker network'
 #Kubernetes commands crunched
