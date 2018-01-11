@@ -1,4 +1,4 @@
-#Generic Alias for normal administration tasks
+#Generic alias for mundane administration tasks
 #Clear Screen
 alias c="clear";
 #Moving around
