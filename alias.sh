@@ -24,6 +24,15 @@ alias odbcj="odbcinst -j";
 alias odbcs="odbcinst -q -s";
 alias odbcd="odbcinst -q -d";
 #Tell me my IP
-alias myip='ping `hostname`|head -1|cut -d "(" -f2|cut -d ")" -f1'
+alias myip='ping `hostname`|head -1|cut -d "(" -f2|cut -d ")" -f1';
 #Terminal Name
-export PS1="[sks@cloudspanner \${PWD/*\//}]#"
+export PS1="[sks@cloudspanner \${PWD/*\//}]#";
+#Docker commands crunched
+alias dc='docker container';
+alias dcr='docker container run';
+alias dcls='docker container ls'
+alias dcps='docker container ps'
+alias di='docker image';
+alias dip='docker image push'
+alias dils='docker image ls'
+#Kubernetes commands crunched
