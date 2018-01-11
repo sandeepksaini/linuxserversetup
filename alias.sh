@@ -36,6 +36,7 @@ alias dv='docker version';
 alias dc='docker container';
 alias dcr='docker container run';
 alias dcls='docker container ls';
+alias dclsa='docker container ls -a';
 alias dcps='docker container ps';
 alias dcins='docker container inspect';
 #Docker Image specific commands crunched
@@ -43,5 +44,5 @@ alias di='docker image';
 alias dip='docker image push';
 alias dils='docker image ls';
 #Docker netwrok specific command
-alias dn='docker network'
+alias dn='docker network';
 #Kubernetes commands crunched
