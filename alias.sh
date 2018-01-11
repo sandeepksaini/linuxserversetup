@@ -27,12 +27,17 @@ alias odbcd="odbcinst -q -d";
 alias myip='ping `hostname`|head -1|cut -d "(" -f2|cut -d ")" -f1';
 #Terminal Name
 export PS1="[sks@cloudspanner \${PWD/*\//}]#";
-#Docker commands crunched
+#Docker status check commands
+alias dstatus='systemctl status docker';
+alias dv='docker version';
+#Docker Container specific commands crunched
 alias dc='docker container';
 alias dcr='docker container run';
-alias dcls='docker container ls'
-alias dcps='docker container ps'
+alias dcls='docker container ls';
+alias dcps='docker container ps';
+alias dcins='docker container inspect';
+#Docker Image specific commands crunched
 alias di='docker image';
-alias dip='docker image push'
-alias dils='docker image ls'
+alias dip='docker image push';
+alias dils='docker image ls';
 #Kubernetes commands crunched
