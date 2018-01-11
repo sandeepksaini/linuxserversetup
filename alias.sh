@@ -28,7 +28,9 @@ alias myip='ping `hostname`|head -1|cut -d "(" -f2|cut -d ")" -f1';
 #Terminal Name
 export PS1="[sks@cloudspanner \${PWD/*\//}]#";
 #Docker status check commands
-alias dstatus='systemctl status docker';
+alias ddstatus='systemctl status docker';
+alias ddstart='systemctl start docker';
+alias ddstop='systemctl stop docker';
 alias dv='docker version';
 #Docker Container specific commands crunched
 alias dc='docker container';
