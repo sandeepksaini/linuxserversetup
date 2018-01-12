@@ -1,6 +1,8 @@
 #Generic alias for mundane administration tasks
 #Clear Screen
 alias c="clear";
+#SSH to local home server "sks"
+alias skslogin='ssh root@sks';
 #Moving around
 alias cd1="cd ..";
 alias cd2="cd ../../";
