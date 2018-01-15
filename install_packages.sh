@@ -1,7 +1,14 @@
 #!/bin/bash
 # Purpose: 
-# 1) The purpose of this shell script is to install and setup a RDP server and tiger vnc on CentOS machine.
+# 1) To install the preliminary package for the setup of the host server
+# 2) The purpose of this shell script is to install and setup a RDP server and tiger vnc on CentOS machine.
 # 2) Install git and configure it
+
+#Install using yum package installer
+for package_list in bash-completion fish screen epel; 
+do 
+ yum install ${package_list} -y
+done
 
 function rdp_setup() 
 {
